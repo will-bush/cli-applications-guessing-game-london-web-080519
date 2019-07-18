@@ -1,5 +1,5 @@
 def run_guessing_game
-  random_number = rand(6)
+  random_number = rand(6) + 1
   puts "Try and guess the random number:"
   user_input = gets.chomp.to_i
     if user_input == random_number
